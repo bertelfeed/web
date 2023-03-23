@@ -6,12 +6,18 @@
     <link rel="stylesheet" href="Reg.css">
 </head>
 <body>
+<div class = "dark_theme">
+<label for="radio_button">Темная</label>
+<input type="radio" name="dark" id="radio_button">
+<label for="radio_button1">Светлая</label>
+<input type="radio" name="dark" id="radio_button1" checked>
+</div>
 <div class="container"> <h1>Регистрационная форма</h1>
 
 <form>
     <div class="form-input">
         <label for ="email-input">Электронная почта</label>
-        <input type="text" id ="email-input" placeholder="example@gmail.com"/>
+        <input type="email" id ="email-input" placeholder="example@gmail.com"/>
     </div>
     <div class="form-input">
         <label for ="surname-input">Фамилия</label>
@@ -37,9 +43,122 @@
         </select>
     </div>
     <div class="submit-input">
-        <input type="submit" value="Submit"/>
+        <button type="submit" id ="submit-input">Submit</button>
     </div>
 </form>
 </div>
+<script type="text/javascript">
+    const body = document.getElementsByTagName("body")[0];
+    let prov1 = false;
+    let prov2 = false;
+    let prov3 = false;
+    let prov4 = false;
+    let prov5 = false;
+    const button = document.getElementById("submit-input");
+    button.onclick = function () {
+        if(prov1 === false || prov2===false || prov3===false || prov4===false || prov5===false) {
+            if(prov1===false){
+                email.style.backgroundColor="red";
+            }
+            if(prov2===false){
+                pass.style.backgroundColor="red";
+            }
+            if(prov3===false){
+                name.style.backgroundColor="red";
+            }
+            if(prov4===false){
+                surname.style.backgroundColor="red";
+            }
+            if(prov5===false){
+                patronymic.style.backgroundColor="red";
+            }
+            button.setCustomValidity("Заполните все поля!");
+        } else {
+            button.setCustomValidity("");
+        }
+    };
+    const email = document.getElementById("email-input");
+    email.onclick = function () {
+        if (email.validity.typeMismatch) {
+            email.setCustomValidity("Введите адрес электронной почты!");
+            email.style.backgroundColor="white";
+            prov1=false;
+        } else {
+            email.style.backgroundColor="white";
+            email.setCustomValidity("");
+            prov1=true;
+        }
+    };
+
+    const pass = document.getElementById("password-input");
+    let passLenght;
+    pass.addEventListener("input", (ev)=> passLenght = ev.target.value);
+    pass.onclick = function () {
+        if (passLenght.length < 7) {
+            pass.setCustomValidity("Пароль должен состоять не менее чем из 7 символов!");
+            prov2=false;
+            pass.style.backgroundColor="white";
+        } else {
+            pass.style.backgroundColor="white";
+            pass.setCustomValidity("");
+            prov2=true;
+        }
+    };
+
+    const name = document.getElementById("name-input");
+    let inputValue_name;
+    name.addEventListener("input", (ev)=> inputValue_name = ev.target.value);
+    name.onclick = function () {
+        if (inputValue_name.length < 5) {
+            name.setCustomValidity("Имя пользователя должно состоять не менее чем из 5 символов!");
+            prov3=false;
+            name.style.backgroundColor="white";
+        }else {
+            name.style.backgroundColor="white";
+            name.setCustomValidity("");
+            prov3=true;
+        }
+    };
+    const surname = document.getElementById("surname-input");
+    let inputValue_surname;
+    surname.addEventListener("input", (ev)=> inputValue_surname = ev.target.value);
+    surname.onclick = function () {
+        if (inputValue_surname.length < 5) {
+            surname.setCustomValidity("Имя пользователя должно состоять не менее чем из 5 символов!");
+            prov4=false;
+            surname.style.backgroundColor="white";
+        }else {
+            surname.style.backgroundColor="white";
+            surname.setCustomValidity("");
+            prov4=true;
+        }
+    };
+    const patronymic = document.getElementById("patronymic-input");
+    let inputValue_patronymic;
+    patronymic.addEventListener("input", (ev)=> inputValue_patronymic = ev.target.value);
+    patronymic.onclick = function () {
+        if (inputValue_patronymic.length < 5) {
+            patronymic.setCustomValidity("Имя пользователя должно состоять не менее чем из 5 символов!");
+            prov5=false;
+            patronymic.style.backgroundColor="white";
+        }else {
+            patronymic.style.backgroundColor="white";
+            patronymic.setCustomValidity("");
+            prov5=true;
+        }
+    };
+
+    const radio_button = document.getElementById("radio_button");
+    radio_button.onclick = function () {
+        body.style.backgroundColor="#282828";
+    }
+
+    const radio_white = document.getElementById("radio_button1");
+    radio_white.onclick = function () {
+        body.style.backgroundColor="#c2c2c2";
+    }
+
+</script>
+
 </body>
 </html>
