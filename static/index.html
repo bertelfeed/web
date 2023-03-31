@@ -14,30 +14,30 @@
 </div>
 <div class="container"> <h1>Регистрационная форма</h1>
 
-<form>
+<form action="/reg-data" method="post">
     <div class="form-input">
         <label for ="email-input">Электронная почта</label>
-        <input type="email" id ="email-input" placeholder="example@gmail.com"/>
+        <input type="email" id ="email-input" placeholder="example@gmail.com" name="email"/>
     </div>
     <div class="form-input">
         <label for ="surname-input">Фамилия</label>
-        <input type="text" id ="surname-input" placeholder="Фамилия"/>
+        <input type="text" id ="surname-input" placeholder="Фамилия" name="secondname"/>
     </div>
     <div class="form-input">
         <label for ="name-input">Имя</label>
-        <input type="text" id ="name-input" placeholder="Имя"/>
+        <input type="text" id ="name-input" placeholder="Имя" name="firstname"/>
     </div>
     <div class="form-input">
         <label for ="patronymic-input">Отчество</label>
-        <input type="text" id ="patronymic-input" placeholder="Отчество"/>
+        <input type="text" id ="patronymic-input" placeholder="Отчество" name="surname"/>
     </div>
     <div class="form-input">
         <label for ="password-input">Пароль</label>
-        <input type="password" id="password-input" placeholder="Пароль"/>
+        <input type="password" id="password-input" placeholder="Пароль" name="password"/>
     </div>
     <div class="form-input">
         <label for ="user-type-input">Роль</label>
-        <select id="user-type-input">
+        <select id="user-type-input" name="typeOfUser">
             <option value="Student">Студент</option>
             <option value="Teacher">Преподаватель</option>
         </select>
@@ -151,11 +151,13 @@
     const radio_button = document.getElementById("radio_button");
     radio_button.onclick = function () {
         body.style.backgroundColor="#282828";
+        body.style.color="#ffffff";
     }
 
     const radio_white = document.getElementById("radio_button1");
     radio_white.onclick = function () {
         body.style.backgroundColor="#c2c2c2";
+        body.style.color="#000000";
     }
 
 </script>
