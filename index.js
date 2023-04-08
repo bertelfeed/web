@@ -4,6 +4,25 @@ const fs = require("fs")
 const app = express()
 const port = 3000
 
+
+import {Asreroids} from "./pages/Asteroids";
+import {Asreroid} from "./pages/Asteroid";
+import {Destroyment} from "./pages/Destroyment";
+const router = createBrowserRouter([
+    {
+        path: "/Asteroid",
+        element: <div>Hello world!</div>,
+    },
+    {
+        path: "/Asteroids",
+        element: <div>Hello world!</div>,
+    },
+    {
+        path: "/Destroyment",
+        element: <div>Hello world!</div>,
+    },
+]);
+
 app.use(express.json())
 app.use(express.urlencoded())
 app.use(express.static('./static'))
