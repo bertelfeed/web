@@ -1,6 +1,6 @@
 .actionGrade{
     position: absolute;
-    width: 8%;
+    width: 8.5%;
     height: 24%;
     left: 84.5%;
     top: 20%;
@@ -42,5 +42,5 @@
     font-size: 100%;
     line-height: 150%;
 
-    color: #000000;
+    color: white;
 }
