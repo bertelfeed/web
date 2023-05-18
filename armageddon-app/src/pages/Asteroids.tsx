@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
 export const Asteroids = () => {
 
+
     const [asteroids, setAsteroids] = useState([])
 
     const [onlyDangerous,setonlyDangerous] = useState(false)
