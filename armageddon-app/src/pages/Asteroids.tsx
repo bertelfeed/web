@@ -47,15 +47,15 @@ export const Asteroids = () => {
         <div>
             <div>
                 <div>
-                    <input type="checkbox" value={onlyDangerous} onChange={()=>setonlyDangerous(!onlyDangerous)}>
+                    <input type="checkbox" value={onlyDangerous as unknown as string} onChange={()=>setonlyDangerous(!onlyDangerous)}>
                     </input>
                     <label>Показать только опасные</label>
                 </div>
 
                 <div className={styles.distances}>
                     <label >Расстояние</label>
-                    <Link onClick={()=>setonlyhdistanceMode(true)}>в километрах</Link>
-                    <Link onClick={()=>setonlyhdistanceMode(false)}>в дистанциях до луны</Link>
+                    <Link to={'/asteroids'} onClick={()=>setonlyhdistanceMode(true)}>в километрах</Link>
+                    <Link to={'/asteroids'} onClick={()=>setonlyhdistanceMode(false)}>в дистанциях до луны</Link>
                 </div>
             </div>
             {
@@ -83,9 +83,9 @@ const generateAsteroids = ()=> {
         `декабря`,];
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const result = [];
-    for (let i = 0; i < (Math.random() * 20 + 2).toFixed(0); i++) {
+    for (let i = 0; i < 22; i++) {
         let namee = "";
-        for (let j = 0; j < (Math.random() * 10 + 2).toFixed(0); j++) {
+        for (let j = 0; j < 5; j++) {
             namee += characters[(Math.random() * 25).toFixed(0)];
         }
         const name = namee;
