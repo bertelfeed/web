@@ -3,15 +3,16 @@ import styles from "./Asteroids.module.css"
 import {Header} from "../components/header/Header";
 import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
+
 export const Asteroids = () => {
 
     const [asteroids, setAsteroids] = useState([])
 
-    const [onlyDangerous,setonlyDangerous] = useState(false)
+    const [onlyDangerous, setonlyDangerous] = useState(false)
     const [onlyhdistanceMode, setonlyhdistanceMode] = useState(true)
-    useEffect( ()=>{
+    useEffect(() => {
         try {
-            const result =  fetch("https://api.nasa.gov/neo/rest/v1/feed?api_key=H94YRDb6SiGB53kYh5lC4N68Hj4gu9UcsrBhdOM5").then((res) => {
+            const result = fetch("https://api.nasa.gov/neo/rest/v1/feed?api_key=H94YRDb6SiGB53kYh5lC4N68Hj4gu9UcsrBhdOM5").then((res) => {
                 return res.json()
             }).then((response) => {
                 let rawAsteroids = []
@@ -35,7 +36,7 @@ export const Asteroids = () => {
                 })
                 setAsteroids(asteroids)
             })
-        } catch (err){
+        } catch (err) {
             console.log(err)
             setAsteroids(generateAsteroids())
         }
@@ -47,27 +48,28 @@ export const Asteroids = () => {
         <div>
             <div>
                 <div>
-                    <input type="checkbox" value={onlyDangerous as unknown as string} onChange={()=>setonlyDangerous(!onlyDangerous)}>
+                    <input type="checkbox" value={onlyDangerous as unknown as string}
+                           onChange={() => setonlyDangerous(!onlyDangerous)}>
                     </input>
                     <label>Показать только опасные</label>
                 </div>
 
                 <div className={styles.distances}>
-                    <label >Расстояние</label>
-                    <Link to={'/asteroids'} onClick={()=>setonlyhdistanceMode(true)}>в километрах</Link>
-                    <Link to={'/asteroids'} onClick={()=>setonlyhdistanceMode(false)}>в дистанциях до луны</Link>
+                    <label>Расстояние</label>
+                    <Link to={'/asteroids'} onClick={() => setonlyhdistanceMode(true)}>в километрах</Link>
+                    <Link to={'/asteroids'} onClick={() => setonlyhdistanceMode(false)}>в дистанциях до луны</Link>
                 </div>
             </div>
             {
-                onlyDangerous ? asteroids.filter((item)=>item.isDangerous).map((item)=>
-                    <AsteroidCard key={item.id} {...item} distanceMode={onlyhdistanceMode}/>) : asteroids.map((item)=>
+                onlyDangerous ? asteroids.filter((item) => item.isDangerous).map((item) =>
+                    <AsteroidCard key={item.id} {...item} distanceMode={onlyhdistanceMode}/>) : asteroids.map((item) =>
                     <AsteroidCard key={item.id} {...item} distanceMode={onlyhdistanceMode}/>)
             }
         </div>
     </div>)
 }
 
-const generateAsteroids = ()=> {
+const generateAsteroids = () => {
     const months = [
         `января`,
         `февраля`,
@@ -92,7 +94,7 @@ const generateAsteroids = ()=> {
         const date = `${(Math.random() * 27 + 1).toFixed(0)} ${months[(Math.random() * 12).toFixed(0)]} 2023`;
         const size = (Math.random() * 100 + 10).toFixed(0);
         const distance = (Math.random() * 90000000).toFixed(0);
-        const isDangerous = Math.random() >=0.5;
+        const isDangerous = Math.random() >= 0.5;
         result.push({name, date, size, distance, isDangerous, id: name})
     }
     return result;
