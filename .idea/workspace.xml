@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task11">
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/asteroids-context/AsteroidsContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidContent/AsteroidContentContainer.tsx" afterDir="false" />
+    <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task12">
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/utils/getUserKey.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidAction/AsteroidAction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidAction/AsteroidAction.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidContent/AsteroidContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidContent/AsteroidContent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task11" />
+        <entry key="$PROJECT_DIR$" value="task12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -144,7 +139,7 @@
       <workItem from="1685464151988" duration="7000" />
       <workItem from="1685547985615" duration="4052000" />
       <workItem from="1686164534703" duration="6969000" />
-      <workItem from="1686174145526" duration="348000" />
+      <workItem from="1686174145526" duration="3520000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1678383000139</created>
@@ -237,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685563657876</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="task12">
+      <created>1686174520170</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686174520170</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +290,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="task11" />
+                        <option value="task13" />
                       </list>
                     </value>
                   </entry>
@@ -418,6 +420,7 @@
     <MESSAGE value="task9" />
     <MESSAGE value="task10" />
     <MESSAGE value="task11" />
-    <option name="LAST_COMMIT_MESSAGE" value="task11" />
+    <MESSAGE value="task12" />
+    <option name="LAST_COMMIT_MESSAGE" value="task12" />
   </component>
 </project>

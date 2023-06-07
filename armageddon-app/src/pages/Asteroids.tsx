@@ -4,12 +4,13 @@ import {Header} from "../components/header/Header";
 import {Link} from "react-router-dom";
 import {useContext, useEffect, useState} from "react";
 import {AsteroidsContext} from "../components/asteroids-context/AsteroidsContext";
+import {getUserKey} from "../utils/getUserKey";
 
 export const Asteroids = () => {
 
     useEffect(() => {
         try {
-            const result = fetch("https://api.nasa.gov/neo/rest/v1/feed?api_key=H94YRDb6SiGB53kYh5lC4N68Hj4gu9UcsrBhdOM5").then((res) => {
+            const result = fetch(`https://api.nasa.gov/neo/rest/v1/feed?api_key=${getUserKey()}`).then((res) => { //H94YRDb6SiGB53kYh5lC4N68Hj4gu9UcsrBhdOM5
                 return res.json()
             }).then((response) => {
                 let rawAsteroids = []
