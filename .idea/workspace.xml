@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task11">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/.idea/armageddon-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armageddon-app/.prettierrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/asteroids-context/AsteroidsContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidContent/AsteroidContentContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidAction/AsteroidAction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidAction/AsteroidAction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidContent/AsteroidContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/AsteroidContent/AsteroidContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Asteroids.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/pages/Destroyment.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task10" />
+        <entry key="$PROJECT_DIR$" value="task11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,26 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Alber/WebstormProjects/web",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Users\\Alber\\WebstormProjects\\web\\armageddon-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alber/WebstormProjects/web&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Alber\\WebstormProjects\\web\\armageddon-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alber\WebstormProjects\web\armageddon-app" />
@@ -146,7 +142,9 @@
       <workItem from="1685461900324" duration="1511000" />
       <workItem from="1685463971409" duration="178000" />
       <workItem from="1685464151988" duration="7000" />
-      <workItem from="1685547985615" duration="3389000" />
+      <workItem from="1685547985615" duration="4052000" />
+      <workItem from="1686164534703" duration="6969000" />
+      <workItem from="1686174145526" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1678383000139</created>
@@ -232,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684418266763</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="task11">
+      <created>1685563657876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685563657876</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
