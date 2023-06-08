@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task15">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/.env" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/utils/getUserKey.ts" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/utils/getUserKey.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task15" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b0e721dd-7df7-4db1-b15f-b5f6aa3ac092" />
+        <option name="url" value="https://github.com/bertelfeed/web.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MQbUZYwpLr3Tgw03ZkCfUrvIMG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alber/WebstormProjects/web&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Alber\\WebstormProjects\\web\\armageddon-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alber\WebstormProjects\web\armageddon-app" />
+      <recent name="C:\Users\Alber\WebstormProjects\web" />
+      <recent name="C:\Users\Alber\WebstormProjects\web\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alber\WebstormProjects\web\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="" />
+      <created>1677702770552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677702770552</updated>
+      <workItem from="1677702772125" duration="428000" />
+      <workItem from="1678354620784" duration="518000" />
+      <workItem from="1678382188316" duration="1030000" />
+      <workItem from="1679587455173" duration="4011000" />
+      <workItem from="1680268708595" duration="1690000" />
+      <workItem from="1680270977693" duration="2128000" />
+      <workItem from="1680763020038" duration="2863000" />
+      <workItem from="1680958126756" duration="904000" />
+      <workItem from="1680959056559" duration="1065000" />
+      <workItem from="1683186879596" duration="1779000" />
+      <workItem from="1683227817284" duration="1984000" />
+      <workItem from="1684416443734" duration="1920000" />
+      <workItem from="1685461774475" duration="118000" />
+      <workItem from="1685461900324" duration="1511000" />
+      <workItem from="1685463971409" duration="178000" />
+      <workItem from="1685464151988" duration="7000" />
+      <workItem from="1685547985615" duration="4052000" />
+      <workItem from="1686164534703" duration="6969000" />
+      <workItem from="1686174145526" duration="9144000" />
+    </task>
+    <task id="LOCAL-00001" summary="reg">
+      <created>1678383000139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678383000139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="reg2">
+      <created>1679596281119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679596281119</updated>
+    </task>
+    <task id="LOCAL-00003" summary="node server">
+      <created>1680272493692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680272493692</updated>
+    </task>
+    <task id="LOCAL-00004" summary="node server">
+      <created>1680272699223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680272699223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Задание 6">
+      <created>1680958594705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680958594705</updated>
+    </task>
+    <task id="LOCAL-00006" summary="react">
+      <created>1680958669021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680958669021</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task7">
+      <created>1683188122257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683188122257</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task8">
+      <created>1683188567891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683188567891</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task9">
+      <created>1683229733787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683229733787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task10">
+      <created>1684417717742</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684417717742</updated>
+    </task>
+    <task id="LOCAL-00011" summary="task10">
+      <created>1684417884404</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684417884404</updated>
+    </task>
+    <task id="LOCAL-00012" summary="task10">
+      <created>1684418266763</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684418266763</updated>
+    </task>
+    <task id="LOCAL-00013" summary="task11">
+      <created>1685563657876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685563657876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="task12">
+      <created>1686174520170</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686174520170</updated>
+    </task>
+    <task id="LOCAL-00015" summary="task13">
+      <created>1686177881969</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686177881969</updated>
+    </task>
+    <task id="LOCAL-00016" summary="task14">
+      <created>1686180331163</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686180331163</updated>
+    </task>
+    <task id="LOCAL-00017" summary="task15">
+      <created>1686185569046</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686185569046</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="488e2c9a-a0cc-46d6-bc13-64b7ca098a32">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="7eb5c001-0f96-4792-a885-479cec727cfc">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="task13" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="b919c366-1f88-4033-bcc8-4bd83f5595fa">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="d68a21cc-1035-40da-bedc-4aa3b8195e1a">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="d8b57c95-28e7-4875-ad47-e23662c6369f">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="e0f1cfc8-2494-4d0d-834f-8171f6fc652f">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="e15ef11a-8b23-4fd5-9b77-69186e5e87fb">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="f9053e59-336f-4b82-8834-2654ad112f5c">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/task10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reg" />
+    <MESSAGE value="reg2" />
+    <MESSAGE value="node server" />
+    <MESSAGE value="Задание 6" />
+    <MESSAGE value="react" />
+    <MESSAGE value="task7" />
+    <MESSAGE value="task8" />
+    <MESSAGE value="task9" />
+    <MESSAGE value="task10" />
+    <MESSAGE value="task11" />
+    <MESSAGE value="task12" />
+    <MESSAGE value="task13" />
+    <MESSAGE value="task14" />
+    <MESSAGE value="task15" />
+    <option name="LAST_COMMIT_MESSAGE" value="task15" />
+  </component>
+</project>
