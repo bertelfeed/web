@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task14">
+    <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/.env" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armageddon-app/src/utils/getUserKey.ts" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/utils/getUserKey.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task13" />
+        <entry key="$PROJECT_DIR$" value="task15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +83,27 @@
       <recent name="C:\Users\Alber\WebstormProjects\web\static" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/armageddon-app/package.json" />
       <command value="run" />
@@ -102,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start:dev" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.start:dev" />
-        <item itemvalue="npm.start:dev" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +160,7 @@
       <workItem from="1685464151988" duration="7000" />
       <workItem from="1685547985615" duration="4052000" />
       <workItem from="1686164534703" duration="6969000" />
-      <workItem from="1686174145526" duration="6968000" />
+      <workItem from="1686174145526" duration="9144000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1678383000139</created>
@@ -250,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686180331163</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="task15">
+      <created>1686185569046</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686185569046</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,6 +465,7 @@
     <MESSAGE value="task12" />
     <MESSAGE value="task13" />
     <MESSAGE value="task14" />
-    <option name="LAST_COMMIT_MESSAGE" value="task14" />
+    <MESSAGE value="task15" />
+    <option name="LAST_COMMIT_MESSAGE" value="task15" />
   </component>
 </project>
