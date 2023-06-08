@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import { getUserKey } from '../../utils/getUserKey';
 import {memo, useEffect, useMemo, useState} from "react";
-export const Header = memo(() => {
+export const Header = memo(({someFunc}:{someFunc?: (arg: any)=>void}) => {
     const [inputOpened, setInputOpened] = useState(false)
 
     const [savedValue, setSavedValue] = useState(null);
@@ -26,13 +26,14 @@ export const Header = memo(() => {
                 </div>
             </div>
             <div className={styles.routeContainer}>
-                <Link to={'/asteroids'}>Астероиды</Link>
-                <Link to={'/destroyment'}>Уничтожение</Link>
+                <Link to={"/asteroids"}>Астероиды</Link>
+                <Link to={"/destroyment"}>Уничтожение</Link>
             </div>
             <button onClick={()=>setSavedValue(someExpensiveFunction)}>Click me</button>
             <div>
                 {getUserKey() === 'DEMO_KEY' ? (
-                    <button onClick={() => setInputOpened(!inputOpened)}>
+                    <button onClick={() => {someFunc("123")
+                        setInputOpened(!inputOpened)}}>
                         Unauthorized
                     </button>
                 ) : (
@@ -40,13 +41,13 @@ export const Header = memo(() => {
                 )}
             </div>
             {inputOpened ? (
-                <input
-                    onChange={(ev) => {
-                        if (ev.target.value.length == 40) {
-                            localStorage.setItem('API_KEY', ev.target.value);
-                            setInputOpened(false);
-                        }
-                    }}
+                <input data-testId = {"api_key_input"}
+                       onChange={(ev) => {
+                           if (ev.target.value.length == 40) {
+                               localStorage.setItem('API_KEY', ev.target.value);
+                               setInputOpened(false);
+                           }
+                       }}
                 />
             ) : null}
         </div>

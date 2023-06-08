@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task13">
+    <list default="true" id="4e33693f-f4c7-4d27-901a-81e71834443c" name="Changes" comment="task14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armageddon-app/src/components/header/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,7 @@
       <workItem from="1685464151988" duration="7000" />
       <workItem from="1685547985615" duration="4052000" />
       <workItem from="1686164534703" duration="6969000" />
-      <workItem from="1686174145526" duration="5573000" />
+      <workItem from="1686174145526" duration="6968000" />
     </task>
     <task id="LOCAL-00001" summary="reg">
       <created>1678383000139</created>
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686177881969</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="task14">
+      <created>1686180331163</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686180331163</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,6 +433,7 @@
     <MESSAGE value="task11" />
     <MESSAGE value="task12" />
     <MESSAGE value="task13" />
-    <option name="LAST_COMMIT_MESSAGE" value="task13" />
+    <MESSAGE value="task14" />
+    <option name="LAST_COMMIT_MESSAGE" value="task14" />
   </component>
 </project>
